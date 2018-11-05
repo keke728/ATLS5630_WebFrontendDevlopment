@@ -1,0 +1,98 @@
+html{
+	background-color: #fef9ee;
+
+}
+h1{
+	text-align: center;
+}
+body{
+	font-size:1.2em;
+}
+img {
+	display: block;
+  margin: 1em auto 1em auto;
+}
+
+.textSinger {
+	font-size: 30px;
+	font-family: 'Indie Flower', cursive;
+	margin-left: 20%;
+}
+
+#singer {
+	font-size: 30px;
+	font-family: 'Indie Flower', cursive;
+}
+
+#enter {
+	margin-top: 2%;
+	margin-left: 20%;
+	font-size: 30px;
+	font-family: 'Indie Flower', cursive;
+}
+
+
+#result {
+	margin-top: 2%;
+	margin-left: 20%;
+	font-size: 25px;
+	color:red;
+	font-family: 'Indie Flower', cursive;
+}
+.radioColor {
+	font-size: 30px;
+	font-family: 'Indie Flower', cursive;
+	margin-left: 20%;
+}
+
+.radioChoice {
+	font-size: 25px;
+	font-family: 'Indie Flower', cursive;
+	margin-left: 0%;
+}
+
+.plant {
+	width:50%;
+	height: 50%;
+	margin: 50px;
+	position: relative;
+	display: inline-block;
+}
+
+.plant .img-top {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
+
+.img-top {
+	width: 20%;
+	position: absolute;
+	margin-left: 100%;
+	left: 40px;
+	top:10px;
+}
+
+.img-original {
+	width: 20%;
+	position: absolute;
+	margin-left: 100%;
+	left: 0px;
+	top:0px;
+}
+
+.plant:hover .img-top{
+	display: inline;
+}
+
+.resultFlower{
+	margin-left: 15%;
+	width: 50%;
+	position: absolute;
+}
+
+.flowerImg {
+	width: 30%;
+}

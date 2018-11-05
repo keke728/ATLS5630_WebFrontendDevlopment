@@ -1,0 +1,12 @@
+$(document).ready(function(){
+  $(".tip_text").hide();
+  $("#tip1").click(function(){
+    $("#tip1_list").slideToggle(500,"swing");
+  });
+  $("#tip2").click(function(){
+    $("#tip2_list").slideToggle(500,"swing");
+  });
+  $("#tip3").click(function(){
+    $("#tip3_list").slideToggle(500,"swing");
+  });
+});

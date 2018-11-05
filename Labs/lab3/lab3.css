@@ -1,0 +1,100 @@
+* {
+	box-sizing: border-box;
+}
+
+.row {
+	display: flex;
+	padding: 5%;
+}
+/* Create five equal columns that sits next to each other */
+.column {
+	flex: 10%;
+	margin-left: 6%;
+}
+
+html{
+	background-color: #fef9ee;
+
+}
+
+h1{
+	text-align: center;
+	color: #8B008B;
+	font-size: 40px;
+	font-family: 'Charmonman', cursive;
+}
+
+
+.getPot {
+	color: 	#800080;
+	margin-left: 45%;
+	margin-top: 8%;
+	font-size: 25px;
+	font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.getFlower{
+	color: 	#800080;
+	margin-left: 43%;
+	margin-top: 5%;
+	font-size: 25px;
+	font-family: 'Bai Jamjuree', sans-serif;
+}
+
+
+.done {
+	color: 	#800080;
+	margin-left: 46%;
+	font-size: 25px;
+	font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.pot{
+	width: 15%;
+	height: 15%;
+	display: none;
+	margin-left: 0%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+.flowerseed{
+	width: 100%;
+	height: 100%;
+	display: none;
+	margin-left: -280%;
+}
+
+.plant{
+	width: 30%;
+	height: 30
+	display:none;
+	margin-top: 5%;
+	margin-left: -10%;
+}
+
+#butterfly {
+	width: 5%;
+	height: 5%;
+	margin-left: 20%;
+	margin-top: 1%;
+}
+
+#butterfly1 {
+	width: 5%;
+	height: 5%;
+	display: none;
+	margin-left: 50%;
+}
+
+#title{
+	display: none;
+	margin-left: 35%;
+	margin-bottom: 30%;
+	margin-top: 0%;
+	position: absolute;
+}
+
+.highlight {
+	color: 	#DA70D6;
+}

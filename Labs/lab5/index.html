@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta chartset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lab 5</title>
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+  rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+  crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" />
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <!--jQuery Script-->
+<script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="container">
+    <h1 class="user">Contact Form</h1>
+    <div class="wrapper animated fadeIn">
+      <div class="keke-info">
+        <h3>Keke Wu</h3>
+        <ul>
+          <li><i class="fa fa-graduation-cap"></i> University of Colorado Boulder</li>
+          <li><i class="fa fa-phone"></i> (720)688-6696</li>
+          <li><i class="fa fa-envelope"></i> keke.wu@colorado.edu</li>
+        </ul>
+        <button id="get">Visitor History</button>
+        <div id="visilist"></div>
+      </div>
+  <div class="contact">
+    <h3>Leave a Message</h3>
+    <div class="alert">Message Sent!</div>
+    <form id="contactForm">
+      <p>
+        <label>Name</label>
+        <input type="text" name="name" id="name" required>
+      </p>
+      <p>
+        <label>Company</label>
+        <input type="text" name="company" id="company" >
+      </p>
+      <p>
+        <label>Email Address</label>
+        <input type="email" name="email" id="email" required>
+      </p>
+      <p>
+        <label>Phone Number</label>
+        <input type="text" name="phone" id="phone">
+      </p>
+      <p class="full">
+        <label>Message</label>
+        <textarea name="message" rows="5" id="message"></textarea>
+      </p>
+      <p class="full">
+        <button id="submitbtn" type="submit">Submit</button>
+      </p>
+    </form>
+  </div>
+ </div>
+</div>
+<script src="https://www.gstatic.com/firebasejs/5.5.5/firebase.js"></script>
+<script src="main.js"></script>
+</body>
+</html>

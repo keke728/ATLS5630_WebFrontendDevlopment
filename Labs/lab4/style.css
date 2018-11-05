@@ -1,0 +1,55 @@
+html{
+  background-color: #f0f0f0;
+}
+
+h1 {
+position: relative;
+text-align: center;
+color: "black";
+font-size: 40px;
+font-family: 'Dosis', sans-serif;
+}
+
+h2 {
+position: relative;
+text-align: center;
+color: "black";
+font-size: 20px;
+font-family: 'Dosis', sans-serif;
+}
+
+p {
+  display: none;
+  margin: 5%;
+  font-size: 15px;
+  font-family: 'Dosis', sans-serif;
+}
+
+header {
+  text-align: center;
+}
+
+#logo {
+  position: relative;
+  width: 10%;
+}
+
+#movie {
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+.card {
+margin: 1rem;
+background: white;
+box-shadow: 2px 4px 25px rgba(0, 0, 0, .1);
+border-radius: 12px;
+overflow: hidden;
+transition: all .2s linear;
+}
+
+.card:hover {
+  cursor: pointer;
+  box-shadow: 2px 8px 45px rgba(0, 0, 0, .15);
+  transform: translate3D(0, -2px, 0);
+}

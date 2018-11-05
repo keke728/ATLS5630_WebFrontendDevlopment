@@ -1,0 +1,117 @@
+/* Global Styles*/
+
+html {
+    box-sizing: border-box;
+    background: url('../img/bg.png');
+    background-size: cover;
+}
+
+/** Customize Fonts**/
+@font-face {
+    font-family: 'nikotinus_demoregular';
+    src: url('font/nikotinusdemo-webfont.woff2') format('woff2'),
+         url('font/nikotinusdemo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/** Navigation bar styles **/
+.sidenav {
+  max-width: 130px;
+  height: auto;
+  position: fixed;
+  display: block;
+  z-index: 1;
+  top: 20px;
+  left: 10px;
+  opacity: 50%
+  overflow-x: hidden;
+  padding: 30px 20px;
+  font-family:'nikotinus_demoregular';
+}
+
+.sidenav a {
+  padding: 10px 8px 16px 6px;
+  text-decoration: none;
+  font-size: 300%;
+  color: 	#4B0082;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #8B008B;
+}
+
+
+#headerimg {
+  display: block;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: 60%;
+}
+
+
+/** Icons **/
+
+.lab{
+  height: 10%;
+  width: 15%;
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-right: 5%;
+}
+
+.project{
+  height: 15%;
+  width: 15%;
+  margin-left: 10%;
+  margin-top: 15%;
+  margin-bottom: 30%;
+  margin-right: 5%;
+}
+
+.exam{
+  height: 15%;
+  width: 20%;
+  margin-left: 10%;
+  margin-top: 15%;
+  margin-bottom: 30%;
+  margin-right: 5%;
+}
+
+.row {
+  margin: auto;
+  align-content: center;
+  text-align: center;
+}
+
+
+#lab {
+  margin-top: 20%;
+  max-width: 50%
+  align-content: center;
+}
+
+/** Responsive Design **/
+@media only screen and (max-width: 736px) {
+
+  #headerimg{
+    width: 60%;
+    margin-top: 10%;
+  }
+
+  .sidenav a {
+   text-decoration: none;
+   font-size: 55%;
+   display: block;
+  }
+
+  .row {
+   max-width: 600px;
+   align-content: center;
+   text-align: center;
+  }
+}

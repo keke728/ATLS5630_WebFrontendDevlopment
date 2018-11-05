@@ -1,0 +1,124 @@
+/* Apply to all elements */
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background:#c6b6d3;
+  color:#604588;
+  line-height:1.6;
+  font-family: 'Comfortaa', cursive;
+  padding:1em;
+}
+
+.container{
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.user {
+  text-align: center;
+}
+
+.wrapper{
+  box-shadow: 0 0 20px 0 rgba(72, 94, 116, 0.7);
+}
+
+/* Apply styles to everything directly inside the wrapper */
+.wrapper > *{
+  padding: 1em;
+}
+
+.keke-info {
+  background: #eee4ee;
+}
+
+.keke-info h3, .keke-info ul{
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+
+.contact{
+  background:#c6b6d3;
+}
+
+/* FORM STYLES */
+.contact form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.contact form label{
+  display: block;
+}
+
+.contact form p{
+  margin: 0;
+}
+
+.contact form .full{
+  grid-column: 1 / 3;
+}
+
+.contact form button, .contact form input, .contact form textarea {
+  width: 100%;
+  padding: 1em;
+  border: 1px solid #eee4ee;
+}
+
+.contact form button {
+  background: #eee4ee;
+  color:#755799;
+  border: 0;
+  text-transform: uppercase;
+  font-family: 'Comfortaa', cursive;
+}
+
+.contact form button:hover, .contact form button:focus{
+  background: #755799;
+  color:#ffffff;
+  outline: 0;
+  transition: background-color 1s ease-out;
+}
+
+.alert{
+  font-family: 'Comfortaa', cursive;
+  text-align: center;
+  padding: 5px;
+  background: #B20000;
+  color:#ffffff;
+  margin-bottom: 10px;
+  display: none;
+}
+
+#get {
+  width: 30%;
+  color:#755799;
+  cursor: pointer;
+  margin-left: 35%;
+  margin-top: 5%;
+}
+
+/* LARGE SCREEN */
+@media(min-width:700px){
+  .wrapper{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .wrapper > *{
+    padding: 2em;
+  }
+
+  .keke-info h3, .keke-info ul, ,user{
+    text-align: left;
+  }
+}
