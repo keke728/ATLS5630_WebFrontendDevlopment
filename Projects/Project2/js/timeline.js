@@ -106,6 +106,6 @@ $(document).ready(function(){
 };
 // Footer Back Button
 $('#backbtn').on('click', function(){
-  window.location = "../index.html";
+  window.location = "../html/char.html";
   });
 });
