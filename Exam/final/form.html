@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Final Exam</title>
+<link rel="stylesheet" href="css/index.css">
+<script
+ src="https://code.jquery.com/jquery-3.3.1.min.js"
+ integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+ crossorigin="anonymous"></script>
+</head>
+
+<body>
+<div id="user_authenticate">
+	<span id="user_status"> </span>
+	<button type="button" id="signin">Sign In</button>
+	<button type="button" id="signout">Sign Out</button>
+</div>
+<div id="main">
+	<div>
+			<h1>Report a Wildfire</h1>
+			<div id="nav">
+					<span class="navitem">
+							<a href="index.html">Home</a>
+					</span>
+          <span class="navitem">
+              <a href="form.html">Report</a>
+          </span>
+					<span class="navitem">
+							<a href="result.html">Incidents</a>
+					</span>
+					<span class="navitem">
+							<a href="data.html">Information</a>
+					</span>
+			</div>
+			<img src="img/wildfire_fighter5.jpg" alt="pic2">
+	</div>
+
+<form id="order_form">
+  <p>
+		<label for="name" class="label">Name</label>
+		<input name="name" type="text" id="name" size="36" required >
+ </p>
+ <p>
+		<label for="email" class="label">Email</label>
+		<input name="email" id="email" type="email" size="36">
+ </p>
+ <p>
+		<label for="phone" class="label">Phone</label>
+		<input name="phone" type="text" id="phone" size="36">
+  </p>
+  <p>Are people being affected?<br>
+		 <input type="radio" name="people" id="people_yes" value="Yes">
+		 <label for="people_yes">Yes</label>
+		 <br>
+		 <input type="radio" name="people" id="people_no" value="No">
+		 <label for="people_no">No</label>
+	</p>
+	<p>Are structures being affected?<br>
+		 <input type="radio" name="structure" id="structure_yes" value="Yes">
+		 <label for="structure_yes">Yes</label>
+		 <br>
+		 <input type="radio" name="structure" id="structure_no" value="No">
+		 <label for="structure_no">No</label>
+	</p>
+	<p>
+		 <label for="location" class="label">Location</label>
+		 <input name="location" type="text" id="location" size="36">
+ </p>
+ <p>
+		 <label for="description" class="label">Description</label><br>
+		 <textarea id="description" rows="5" cols="30"></textarea>
+ </p>
+	<p>
+		 <input type="submit" id="enter" value="Submit sightseeing">
+ </p>
+</form>
+</div>
+
+<!-- Firebase -->
+<script src="https://www.gstatic.com/firebasejs/5.7.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAYynMGGVM3h3J2UAJmDvb8t_V7Ezui480",
+    authDomain: "final-742d9.firebaseapp.com",
+    databaseURL: "https://final-742d9.firebaseio.com",
+    projectId: "final-742d9",
+    storageBucket: "final-742d9.appspot.com",
+    messagingSenderId: "149481570179"
+  };
+  firebase.initializeApp(config);
+</script>
+<script src="js/form.js"></script>
+</body>
+</html>

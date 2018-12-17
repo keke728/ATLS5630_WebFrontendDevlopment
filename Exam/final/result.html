@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Final Exam</title>
+<link rel="stylesheet" href="css/index.css">
+<script
+ src="https://code.jquery.com/jquery-3.3.1.min.js"
+ integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+ crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="main">
+  	<div>
+  			<h1>Wildfire Sightings</h1>
+        <div id="nav">
+          <span class="navitem">
+              <a href="index.html">Home</a>
+          </span>
+  					<span class="navitem">
+  							<a href="form.html">Report</a>
+  					</span>
+  					<span class="navitem">
+  							<a href="result.html">Incidents</a>
+  					</span>
+            <span class="navitem">
+                <a href="data.html">Information</a>
+            </span>
+  			</div>
+        <img src="img/wildfire2.jpg" alt="img3">
+        <h3> Reported Wildfires</h3>
+        <div id="flexbox">
+           <div id="results">
+             <div id="result_name">
+              <h4>Name</h4>
+            </div>
+            <div id="result_location">
+             <h4>Location</h4>
+            </div>
+            <div id="result_people">
+             <h4>People affected</h4>
+            </div>
+            <div id="result_structure">
+             <h4>Structured affected</h4>
+            </div>
+          </div>
+        </div>
+  	</div>
+</div>
+
+
+<!-- Firebase -->
+<script src="https://www.gstatic.com/firebasejs/5.7.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAYynMGGVM3h3J2UAJmDvb8t_V7Ezui480",
+    authDomain: "final-742d9.firebaseapp.com",
+    databaseURL: "https://final-742d9.firebaseio.com",
+    projectId: "final-742d9",
+    storageBucket: "final-742d9.appspot.com",
+    messagingSenderId: "149481570179"
+  };
+  firebase.initializeApp(config);
+</script>
+<script src="js/result.js"></script>
+</body>
+</html>
