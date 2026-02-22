@@ -3,7 +3,7 @@
  "children": [
   {
    "name": "Princess Mononoke",
-   "img":  "https://m.media-amazon.com/images/M/MV5BMTVlNWM4NTAtNDQxYi00YWU5LWIwM2MtZmVjYWFmODZiODE5XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY1000_CR0,0,707,1000_AL_.jpg",
+   "img":  "https://m.media-amazon.com/images/I/81jSJRqb9IL._SY522_.jpg",
    "children": [
     {
       "name": "Ashitaka",
@@ -60,7 +60,7 @@
 
   {
    "name": "Kiki's Delivery Service",
-   "img":  "https://m.media-amazon.com/images/M/MV5BOTc0ODM1Njk1NF5BMl5BanBnXkFtZTcwMDI5OTEyNw@@._V1_.jpg",
+   "img":  "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/340/2024/12/26120915/Aufa4YdZIv4AXpR9rznwVA5SEfd-scaled.jpg",
    "children": [
      {
        "name": "Tombo",
@@ -82,7 +82,7 @@
 
   {
    "name": "Porco Rosso",
-   "img":  "https://m.media-amazon.com/images/M/MV5BZDIyOTBiZjktYTE0NS00ZGE2LWEzM2YtMzM0MWI2YzIzMGM2L2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX703_CR0,0,703,999_AL_.jpg",
+   "img":  "https://static.wikia.nocookie.net/studio-ghibli/images/4/41/Porco_Rosso.jpg/revision/latest/scale-to-width-down/1200?cb=20220212051521",
    "children": [
      {
        "name": "Proco Rosso",
