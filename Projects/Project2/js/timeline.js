@@ -57,21 +57,7 @@ $(document).ready(function(){
         img.setAttribute('src', url[i]);
       });
 
-        $('.timeline').append(timeline);
-        timeline.appendChild(content);
-        content.appendChild(img);
-        content.appendChild(year);
-        content.appendChild(des);
-        // Call the Scorlling Function
-        scorlling();
-       });
-    }else{
-      console.log("Error!");
-    }
-  }
-  request.send();
-
-  // Scolling Page Function
+          // Scolling Page Function
   var scorlling = function(){
    $.fn.timeline = function() {
     var selectors = {
@@ -104,6 +90,22 @@ $(document).ready(function(){
   }
   $("#timeline-1").timeline();
 };
+
+        $('.timeline').append(timeline);
+        timeline.appendChild(content);
+        content.appendChild(img);
+        content.appendChild(year);
+        content.appendChild(des);
+        // Call the Scorlling Function
+        scorlling();
+       });
+    }else{
+      console.log("Error!");
+    }
+  }
+  request.send();
+
+
 // Footer Back Button
 $('#backbtn').on('click', function(){
   window.location = "../html/char.html";
